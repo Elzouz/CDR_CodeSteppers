@@ -156,6 +156,12 @@ void GoToPoint(int x, int y)
   angleInit = angle;
 }
 
-
+void loop()
+{
+  GoToPoint(0, 10);
+  GoToPoint(10, 10);
+  GoToPoint(20, 20);
+  GoToPoint(0, 0);
+}
 
 
